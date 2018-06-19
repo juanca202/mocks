@@ -1,0 +1,345 @@
+{
+  "terms": [
+    {
+      "id": 1,
+      "name": "Maquinaria Agricultura",
+      "slug": "maquinaria-agricola"
+    },
+    {
+      "id": 2,
+      "name": "Maquinaria Industrial",
+      "slug": "maquinaria-industrial"
+    },
+    {
+      "id": 3,
+      "name": "Material de oficina",
+      "slug": "material-oficina"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "John Deere",
+      "image": "assets/brands/john-deere.svg"
+    },
+    {
+      "id": 2,
+      "name": "Viking",
+      "image": "assets/brands/viking.png"
+    },
+    {
+      "id": 3,
+      "name": "Tapsa",
+      "image": "assets/brands/tapsa.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Stihl",
+      "image": "assets/brands/stihl.svg"
+    },
+    {
+      "id": 5,
+      "name": "Petzl",
+      "image": "assets/brands/petzl.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Caterpillar",
+      "image": "assets/brands/cat.svg"
+    },
+    {
+      "id": 7,
+      "name": "New Holland",
+      "image": "assets/brands/new-holland.svg"
+    },
+    {
+      "id": 8,
+      "name": "Husqvarna",
+      "image": "assets/brands/husqvarna.svg"
+    }
+  ],
+  "banners": [
+    {
+      "title": "Usados a la venta",
+      "url": "#",
+      "image": "assets/featured/2.jpg"
+    },
+    {
+      "title": "Stihl",
+      "url": "#",
+      "image": "assets/featured/3.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "5075E",
+      "price": 31850,
+      "offer": 29000,
+      "image": "assets/catalog/5075E.png"
+    },
+    {
+      "id": 2,
+      "name": "5090M",
+      "price": 39000,
+      "offer": 35000,
+      "image": "assets/catalog/5090M.png"
+    },
+    {
+      "id": 3,
+      "name": "5100R",
+      "price": 45500,
+      "offer": 40000,
+      "image": "assets/catalog/5100R.png"
+    },
+    {
+      "id": 4,
+      "name": "5090GF",
+      "price": 34700,
+      "offer": 30000,
+      "image": "assets/catalog/5090GF.png"
+    }
+  ],
+  "cart-items": [
+    {
+      "id": 2,
+      "name": "5090M",
+      "brand": {
+        "id": 1,
+        "name": "John Deere",
+        "image": "assets/brands/john-deere.svg"
+      },
+      "price": 39000,
+      "offer": 35000,
+      "quantity": 1,
+      "image": "assets/catalog/5090M.png"
+    },
+    {
+      "id": 3,
+      "name": "5100R",
+      "brand": {
+        "id": 1,
+        "name": "John Deere",
+        "image": "assets/brands/john-deere.svg"
+      },
+      "price": 45500,
+      "offer": 40000,
+      "quantity": 1,
+      "image": "assets/catalog/5100R.png"
+    },
+    {
+      "id": 4,
+      "name": "5090GF",
+      "brand": {
+        "id": 1,
+        "name": "John Deere",
+        "image": "assets/brands/john-deere.svg"
+      },
+      "price": 34700,
+      "offer": 30000,
+      "quantity": 1,
+      "image": "assets/catalog/5090GF.png"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "number": "001-435349",
+      "customer_id": 1,
+      "name": "José Martinez",
+      "total": 23456,
+      "status": "rejected",
+      "date": "12-03-2017"
+    },
+    {
+      "id": 2,
+      "number": "001-435348",
+      "customer_id": 2,
+      "name": "Marco Aguayo",
+      "total": 43456,
+      "status": "delivered",
+      "date": "12-03-2017"
+    },
+    {
+      "id": 3,
+      "number": "001-435347",
+      "name": "Miguel Sandoval",
+      "customer_id": 3,
+      "total": 23487,
+      "status": "delivered",
+      "date": "12-04-2017"
+    },
+    {
+      "id": 4,
+      "number": "001-435346",
+      "name": "Julio Benitez",
+      "customer_id": 4,
+      "total": 23098,
+      "status": "created",
+      "date": "12-04-2017"
+    },
+    {
+      "id": 5,
+      "number": "001-435345",
+      "name": "María Altamirano",
+      "customer_id": 5,
+      "total": 87654,
+      "status": "rejected",
+      "date": "12-05-2017"
+    },
+    {
+      "id": 6,
+      "number": "001-435344",
+      "name": "José Martinez",
+      "customer_id": 1,
+      "total": 7567,
+      "status": "approved",
+      "date": "12-05-2017"
+    },
+    {
+      "id": 7,
+      "number": "001-435343",
+      "name": "Marco Aguayo",
+      "customer_id": 2,
+      "total": 342,
+      "status": "rejected",
+      "date": "12-06-2017"
+    },
+    {
+      "id": 8,
+      "number": "001-435342",
+      "name": "Miguel Sandoval",
+      "customer_id": 3,
+      "total": 4534,
+      "status": "created",
+      "date": "12-06-2017"
+    },
+    {
+      "id": 9,
+      "number": "001-435341",
+      "name": "Julio Benitez",
+      "customer_id": 4,
+      "total": 34543,
+      "status": "approved",
+      "date": "12-07-2017"
+    },
+    {
+      "id": 10,
+      "number": "001-435340",
+      "name": "María Altamirano",
+      "customer_id": 5,
+      "total": 4456,
+      "status": "rejected",
+      "date": "12-07-2017"
+    }
+  ],
+  "order-items": [
+    {
+      "id": 1,
+      "order_number": "001-435349",
+      "brand": {
+        "id": 1,
+        "name": "John Deere",
+        "image": "assets/brands/john-deere.svg"
+      },
+      "name": "5075E",
+      "price": 31850,
+      "offer": 29000,
+      "quantity": 1,
+      "image": "assets/catalog/5075E.png"
+    },
+    {
+      "id": 2,
+      "order_number": "001-435349",
+      "brand": {
+        "id": 1,
+        "name": "John Deere",
+        "image": "assets/brands/john-deere.svg"
+      },
+      "name": "5090M",
+      "price": 39000,
+      "offer": 35000,
+      "quantity": 2,
+      "image": "assets/catalog/5090M.png"
+    },
+    {
+      "id": 3,
+      "order_number": "001-435349",
+      "brand": {
+        "id": 1,
+        "name": "John Deere",
+        "image": "assets/brands/john-deere.svg"
+      },
+      "name": "5100R",
+      "price": 45500,
+      "offer": null,
+      "quantity": 1,
+      "image": "assets/catalog/5100R.png"
+    },
+    {
+      "id": 2,
+      "order_number": "001-435344",
+      "brand": {
+        "id": 1,
+        "name": "John Deere",
+        "image": "assets/brands/john-deere.svg"
+      },
+      "name": "5090M",
+      "price": 39000,
+      "offer": 35000,
+      "quantity": 2,
+      "image": "assets/catalog/5090M.png"
+    },
+    {
+      "id": 3,
+      "order_number": "001-435344",
+      "brand": {
+        "id": 1,
+        "name": "John Deere",
+        "image": "assets/brands/john-deere.svg"
+      },
+      "name": "5100R",
+      "price": 45500,
+      "offer": null,
+      "quantity": 1,
+      "image": "assets/catalog/5100R.png"
+    }
+  ],
+  "users": [
+    {
+      "id": 2,
+      "username": "admin",
+      "email": "juanca.altamirano@gmail.com",
+      "enabled": true,
+      "home_path": "orders",
+      "channel": "admin",
+      "image": "http://i.dailymail.co.uk/i/pix/2017/04/20/13/3F6B966D00000578-4428630-image-m-80_1492690622006.jpg",
+      "menus": [],
+      "role": {
+        "id": 1,
+        "name": "ROLE_PYME"
+      }
+    },
+    {
+      "id": 1,
+      "username": "jose",
+      "email": "jose.martinez@gmail.com",
+      "enabled": true,
+      "home_path": "orders",
+      "channel": "admin",
+      "image": "http://i.dailymail.co.uk/i/pix/2017/04/20/13/3F6B966D00000578-4428630-image-m-80_1492690622006.jpg",
+      "menus": [],
+      "role": {
+        "id": 1,
+        "name": "ROLE_STORE"
+      }
+    }
+  ],
+  "_oauth": {
+    "access_token": "NjcyNjg3MzZjNGEwNTA3YTQxZWViN2NkMDBhYTMwMTU5MjQxOGE4NGUwMzc3NzlhMDU0OGJhODA3MGRkNGEzOQ",
+    "expires_in": 3600,
+    "refresh_token": "YWYxYmNlMTE2MzBiOTMxOWY3Y2YwYzNjNjI5MzNiMWFlNjhhOTlkMTIyNjkxNmMwZmEzNDQyYzgzOWFkODM2Mg",
+    "scope": null,
+    "token_type": "Bearer"
+  }
+}
